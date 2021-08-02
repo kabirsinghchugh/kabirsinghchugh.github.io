@@ -1,6 +1,5 @@
 title: Kabir's Webpage
 show_downloads: false
 show_header: true
-remote_theme: "dracula/gh-pages"
 sass:
   style: compressed
