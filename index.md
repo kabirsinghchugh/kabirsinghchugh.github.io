@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Kant Essay](docs/critique-practical-reason)
+
 # Tutorial
 
 1. Standard markdown links(cmd K in iaWriter) `[Name](folder/doc)`
@@ -14,7 +16,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 Text can be `**bold**`, `_italic_`, or `~~strikethrough~~`.
 
 
-# [](#header-1)Header 1 
+# [](#header-1)Header 1
 
 Header link as `[](#header-1)`
 
