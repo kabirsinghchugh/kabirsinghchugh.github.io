@@ -3,3 +3,6 @@ description: Random Snippets I wish to share online
 baseurl: "/"
 url: "https://notes.kabirchugh.net"
 theme: minima
+header_pages:
+  - about.md
+  - notes.md
