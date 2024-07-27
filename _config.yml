@@ -1,8 +1,35 @@
 title: My Notes by Kabir Chugh
-description: Random Snippets I wish to share online
-baseurl: "/"
-url: "https://notes.kabirchugh.net"
+author:
+  name: Kabir Chugh
+  email: kabirchugh@icloud.com
+
+description: >
+  Random Snippets I wish to share online
+baseurl: '/'
+url: 'https://notes.kabirchugh.net'
+
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 header_pages:
   - about.md
   - notes.md
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic            Default, light color scheme.
+  # dark               Dark variant of the classic skin.
+  # auto               Adaptive skin based on the default classic and dark skins.
+  # solarized-light    Light variant of solarized color scheme.
+  # solarized-dark     Dark variant of solarized color scheme.
+  # solarized          Adaptive skin for solarized color scheme skins.
+  skin: dark
+# Set to `true` to show excerpts on the homepage.
+show_excerpts: true
+# Theme-specific settings
